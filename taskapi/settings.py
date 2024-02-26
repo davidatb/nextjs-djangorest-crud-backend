@@ -139,3 +139,8 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 ALLOWED_HOSTS = ["web-production-429b.up.railway.app"]
+
+CSREF_TRUSTED_ORIGINS = [
+    "http://*",
+    "https://web-production-429b.up.railway.app"
+]
