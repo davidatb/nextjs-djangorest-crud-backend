@@ -1,1 +1,1 @@
-web: gunicorn taskapi.wsgi
+web: python manage.py collectstatic && gunicorn taskapi.wsgi
