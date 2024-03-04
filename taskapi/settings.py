@@ -142,7 +142,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
 
-ALLOWED_HOSTS = ["web-production-429b.up.railway.app"]
+ALLOWED_HOSTS = ["web-production-429b.up.railway.app", "https://nextjs-djangorest-crud-frontend-production.up.railway.app/", "localhost", "127.0.0.1"]
 
 CSREF_TRUSTED_ORIGINS = [
     "http://*",
